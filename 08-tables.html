@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Tables</h1>
+    <table>
+      <thead>
+        <!-- Here we can wrap sections of our table in thead or tbody or tfoot helps for accessibility 
+        th is for table header.-->
+        <tr>
+          <th rowspan="2">Row 1</th>
+          <!-- nested headers -->
+          <th rowspan="2">Row 2</th>
+          <th>Row 3</th>
+        </tr>
+        <tr>
+          <th>Row 4</th>
+          <th>Row 5</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <!-- Here we define our table data td. -->
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <!-- Each set of data is wrapped inside of a tr -->
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
